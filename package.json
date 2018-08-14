@@ -1,0 +1,29 @@
+{
+  "name": "gcf-node-hello-world",
+  "version": "0.0.1",
+  "description": "Hello World Node App for Google Cloud Functions",
+  "main": "app.js",
+  "scripts": {
+    "start": "functions start && functions deploy helloWorld --trigger-http",
+    "stop": "functions stop",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-emulator": "^1.0.0-beta.5",
+    "jest": "^23.5.0",
+    "uuid": "^3.3.2"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gautamarora/gae-node-hello-world.git"
+  },
+  "author": "Gautam Arora",
+  "license": "Apache-2.0",
+  "private": "true"
+}

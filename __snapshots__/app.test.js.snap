@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET / should match snapshot 1`] = `
+Object {
+  "send": [MockFunction] {
+    "calls": Array [
+      Array [
+        "Hello World!",
+      ],
+    ],
+    "results": Array [
+      Object {
+        "isThrow": false,
+        "value": undefined,
+      },
+    ],
+  },
+}
+`;
