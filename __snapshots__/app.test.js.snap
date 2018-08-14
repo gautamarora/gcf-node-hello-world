@@ -5,7 +5,7 @@ Object {
   "send": [MockFunction] {
     "calls": Array [
       Array [
-        "Hello World!!",
+        "Hello World!",
       ],
     ],
     "results": Array [
