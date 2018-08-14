@@ -1,4 +1,4 @@
-# Hello World Node App using Docker for Cloud Functions
+# Hello World Node App for Cloud Functions
 
 This is a sample "Hello World" application for the "Continuous Deployment for Node Apps on GCP" tutorial that works on Cloud Functions.
 
