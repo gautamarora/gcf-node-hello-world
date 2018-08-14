@@ -4,7 +4,7 @@ This is a sample "Hello World" application for the "Continuous Deployment for No
 
 ## Prerequisites
 
-Docker is installed
+Node 8+ & NPM 5+ are installed
 
 ## Running Locally
 
@@ -19,12 +19,12 @@ npm stop
 npm test
 ```
 
-## Deploying to Kubernetes Engine
+## Deploying to Cloud Functions
 
 ```
 gcloud beta functions deploy helloWorld --runtime nodejs8 --trigger-http
 ```
 
-## Deploying to Kubernetes Engine on Github push
+## Deploying to Cloud Functions on Github push
 
 Check out to the tutorial (link tbd)
